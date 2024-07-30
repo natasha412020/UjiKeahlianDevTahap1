@@ -12,7 +12,7 @@ class PesawatTempur extends Pesawat
 
     public function greeting()
     {
-        return "Hello from ChildClass2! My name is " . $this->getName();
+        return "Ini adalah informasi Pesawat Tempur" . $this->getName();
     }
 
     public function getThreeRows()
